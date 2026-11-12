@@ -68,11 +68,13 @@ html[data-theme="dark"] #selected-heading, html[data-theme="dark"] #selected-hea
 
 I am **Dandan (Alina) Tan (谭单单)**, a Ph.D. candidate in Quantitative Life Sciences at [McGill University](https://www.mcgill.ca/), co-supervised by **Dr. Guillaume Butler-Laporte** and **Dr. Brent Richards** at the Lady Davis Institute.
 
-I study how human genetic variation shapes disease susceptibility and informs therapeutic discovery. My work combines **statistical genetics, genetic epidemiology, and multi-omics** to connect population-scale associations with biological mechanisms.
+My research focuses on understanding how human genetic variation influences complex traits and disease susceptibility, with the broader goal of uncovering biological mechanisms and informing therapeutic discovery. I combine **statistical genetics, genetic epidemiology, and multi-omics approaches** to translate population-scale genetic findings into biological insights.
 
-My doctoral research focuses on the genetics of infectious diseases, including dermatophytosis and sepsis. I integrate evidence from large biobanks—including UK Biobank, the Million Veteran Program, FinnGen, and All of Us—using GWAS meta-analysis, Mendelian randomization, and colocalization. My ongoing work also investigates structural genetic variation, particularly mobile element variants, and their contribution to complex traits. More broadly, I am interested in integrating multi-omics data to understand disease heterogeneity.
+My doctoral research spans two complementary areas: **genetics-guided therapeutic target discovery and the characterization of structural genetic variation**. In my work on dermatophytosis and sepsis, I integrate large-scale genome-wide association studies with Mendelian randomization, colocalization, and proteomic data to investigate disease mechanisms and identify potential therapeutic targets. In parallel, I study mobile element variants using whole-genome sequencing data from the UK Biobank, exploring their contributions to gene regulation, protein abundance, and complex traits.
 
-Before starting my Ph.D. in 2023, I completed a B.Sc. at McGill University, majoring in Pharmacology with a minor in Computer Science and graduating with Distinction. My doctoral work is supported by an FRQS Doctoral Training Award and a MUHC Metabolic Centre of Excellence Fellowship.
+More broadly, I am interested in leveraging large-scale genomic and multi-omics data to better understand human disease biology and uncover opportunities for therapeutic intervention.
+
+Before starting my Ph.D. in 2023, I completed a B.Sc. at McGill University, majoring in Pharmacology with a minor in Computer Science and graduating with Distinction. My doctoral research is supported by an FRQS Doctoral Training Award and a MUHC Metabolic Centre of Excellence Fellowship.
 
 [Publications]({{ '/publications/' | relative_url }}) · [Curriculum vitae]({{ '/cv/' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/dandan-alina-tan-754ba21b3/)
 
