@@ -16,7 +16,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: statistical genetics, genetic epidemiology, proteomics, Mendelian randomization, McGill, Dandan Tan, Alina Tan
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: mcgill-favicon.ico # McGill shield favicon
+icon: mcgill_icon.png # McGill shield favicon
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://dandan-alina-tan.github.io # the base hostname & protocol for your site
