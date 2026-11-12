@@ -11,7 +11,7 @@ profile:
     <p>Lady Davis Institute</p>
     <p>Jewish General Hospital</p>
     <p>Montréal, Canada</p>
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
   enabled: false
@@ -41,6 +41,13 @@ a:hover { color:var(--global-hover-color); }
 .alina-period { display:block; color:var(--global-theme-color); font-size:.9rem; font-weight:600; margin-bottom:.65rem; }
 .alina-entry p { margin:.25rem 0; font-size:.95rem; }
 @media(max-width:640px) { .alina-timeline:before { left:8px; } .alina-entry,.alina-entry:nth-child(odd) { margin-left:0; width:100%; padding:0 0 1.8rem 2rem; text-align:left; } .alina-entry:after,.alina-entry:nth-child(odd):after { left:0; right:auto; } .alina-news { padding:0 .85rem; } }
+.alina-milestones { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.5rem; margin:2rem 0; }
+.alina-milestone { position:relative; border-top:3px solid var(--alina-line); padding-top:1.6rem; }
+.alina-milestone:before { content:""; position:absolute; left:0; top:-9px; width:15px; height:15px; border:3px solid var(--global-theme-color); border-radius:50%; background:var(--global-bg-color,#fff); box-sizing:border-box; }
+.alina-milestone h3 { font-size:1.1rem; font-weight:700; margin:.65rem 0 .4rem; }
+.alina-milestone p { font-size:.95rem; margin:.35rem 0; }
+.alina-selected h2 { font-weight:700; margin:2.5rem 0 1.3rem; }
+@media(max-width:640px) { .alina-milestones { grid-template-columns:1fr; gap:1.2rem; } }
 </style>
 
 I am **Dandan (Alina) Tan (谭单单)**, a Ph.D. candidate in Quantitative Life Sciences at [McGill University](https://www.mcgill.ca/), co-supervised by **Dr. Guillaume Butler-Laporte** and **Dr. Brent Richards** at the Lady Davis Institute.
@@ -67,31 +74,33 @@ Before starting my Ph.D. in 2023, I completed a B.Sc. at McGill University, majo
 
 <section class="alina-section" id="education-experience" aria-labelledby="education-heading">
 <h2 id="education-heading">Education &amp; Experience</h2>
-<div class="alina-timeline">
-<div class="alina-entry">
+<div class="alina-milestones">
+<div class="alina-milestone">
+<span class="alina-period">September 2019–April 2023</span>
 <span class="alina-institution">McGill University</span>
+<h3>Bachelor of Science</h3>
+<p>Major in Pharmacology<br>Minor in Computer Science</p>
+<p>Graduated with Distinction</p>
+</div>
+<div class="alina-milestone">
 <span class="alina-period">September 2023–present</span>
-<p><strong>Ph.D. in Quantitative Life Sciences</strong></p>
+<span class="alina-institution">McGill University</span>
+<h3>Ph.D. in Quantitative Life Sciences</h3>
 <p>Lady Davis Institute, Jewish General Hospital</p>
 <p>Co-supervisors: Dr. Guillaume Butler-Laporte and Dr. Brent Richards</p>
 </div>
-<div class="alina-entry">
-<span class="alina-institution">McGill University</span>
-<span class="alina-period">September 2019–April 2023</span>
-<p><strong>B.Sc. in Pharmacology</strong></p>
-<p>Minor in Computer Science · Graduated with Distinction</p>
+<div class="alina-milestone">
+<span class="alina-period">September 2027 · Planned</span>
+<span class="alina-institution">Looking ahead</span>
+<h3>Planned Ph.D. graduation</h3>
+<p>Continuing to explore human genetics, multi-omics, and new research questions.</p>
 </div>
-<div class="alina-entry">
-<span class="alina-institution">McGill University</span>
-<span class="alina-period">June 2022–April 2023</span>
-<p><strong>Research Assistant · Mathieu Blanchette’s laboratory</strong></p>
-<p>Computational genomics and machine learning for RNA editing.</p>
 </div>
-<div class="alina-entry">
-<span class="alina-institution">McGill University</span>
-<span class="alina-period">May–September 2022</span>
-<p><strong>Research Assistant · Bastien Castagner’s laboratory</strong></p>
-<p>Natural product metabolism, chromatography, and mass spectrometry.</p>
-</div>
+</section>
+
+<section class="alina-section alina-selected" aria-labelledby="selected-heading">
+<h2 id="selected-heading"><strong>Selected publications</strong></h2>
+<div class="publications">
+{% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 </section>
