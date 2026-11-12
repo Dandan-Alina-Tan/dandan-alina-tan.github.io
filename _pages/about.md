@@ -48,6 +48,22 @@ a:hover { color:var(--global-hover-color); }
 .alina-milestone p { font-size:.95rem; margin:.35rem 0; }
 .alina-selected h2 { font-weight:700; margin:2.5rem 0 1.3rem; }
 @media(max-width:640px) { .alina-milestones { grid-template-columns:1fr; gap:1.2rem; } }
+#selected-heading, #selected-heading strong, .alina-selected h2, .alina-selected h2 strong { color:#163f76 !important; font-weight:700 !important; }
+html[data-theme="dark"] #selected-heading, html[data-theme="dark"] #selected-heading strong { color:#a6c8f6 !important; }
+.alina-news { max-height:22rem; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:#8da9ce transparent; }
+.alina-news:focus-visible { outline:2px solid var(--global-theme-color); outline-offset:4px; }
+.alina-news-icon { display:inline-block; font-size:1rem; margin-right:.4rem; }
+.publications { width:100%; text-align:left; }
+.publications ol.bibliography { list-style:none !important; margin:0 !important; padding:0 !important; }
+.publications ol.bibliography > li { list-style:none !important; padding:1.2rem 0 !important; margin:0 !important; border-bottom:1px solid var(--alina-line); }
+.publications ol.bibliography > li:last-child { border-bottom:0; }
+.publications ol.bibliography > li::marker { content:""; }
+.publications .row { display:block !important; margin:0 !important; }
+.publications .abbr { display:none !important; }
+.publications .col-sm-8 { display:block !important; flex:none !important; width:100% !important; max-width:100% !important; padding:0 !important; margin:0 !important; }
+.publications .title { color:var(--alina-heading) !important; font-size:1.05rem; font-weight:700 !important; line-height:1.5; margin-bottom:.4rem; }
+.publications .author, .publications .periodical { line-height:1.65; margin-bottom:.35rem; }
+.publications .links { margin-top:.45rem; }
 </style>
 
 I am **Dandan (Alina) Tan (谭单单)**, a Ph.D. candidate in Quantitative Life Sciences at [McGill University](https://www.mcgill.ca/), co-supervised by **Dr. Guillaume Butler-Laporte** and **Dr. Brent Richards** at the Lady Davis Institute.
@@ -62,13 +78,13 @@ Before starting my Ph.D. in 2023, I completed a B.Sc. at McGill University, majo
 
 <section class="alina-section" id="news" aria-labelledby="news-heading">
 <h2 id="news-heading">News</h2>
-<ul class="alina-news">
-<li><span class="alina-date">[10/2026]</span> Received the <strong>Roger Williams Award</strong> from the International Genetic Epidemiology Society (IGES).</li>
-<li><span class="alina-date">[10/2026]</span> Presented my ongoing work on <strong>mobile element variation in the UK Biobank</strong> as an oral presentation at IGES and a poster at ASHG.</li>
-<li><span class="alina-date">[09/2026]</span> Gave an oral presentation on mobile element variation at the <strong>Montreal Genomics Meeting</strong>.</li>
-<li><span class="alina-date">[06/2026]</span> Presented my work on <strong>alpha-1 antitrypsin and sepsis</strong> at the European Society of Human Genetics Annual Meeting in Gothenburg.</li>
-<li><span class="alina-date">[09/2025]</span> Awarded the <strong>MUHC Metabolic Centre of Excellence Fellowship</strong>.</li>
-<li><span class="alina-date">[05/2025]</span> Awarded an <strong>FRQS Doctoral Training Award</strong>.</li>
+<ul class="alina-news" tabindex="0" aria-label="Recent news; scroll for more announcements">
+<li><span class="alina-date">[2026]</span> <span class="alina-news-icon" aria-hidden="true">🏆</span> Received the <strong>Roger Williams Award</strong> from the International Genetic Epidemiology Society (IGES).</li>
+<li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my ongoing work on <strong>mobile element variation in the UK Biobank</strong> as an oral presentation at IGES and a poster at ASHG.</li>
+<li><span class="alina-date">[09/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Gave an oral presentation on mobile element variation at the <strong>Montreal Genomics Meeting</strong>.</li>
+<li><span class="alina-date">[06/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my work on <strong>alpha-1 antitrypsin and sepsis</strong> at the European Society of Human Genetics Annual Meeting in Gothenburg.</li>
+<li><span class="alina-date">[09/2025]</span> <span class="alina-news-icon" aria-hidden="true">🏅</span> Awarded the <strong>MUHC Metabolic Centre of Excellence Fellowship</strong>.</li>
+<li><span class="alina-date">[05/2025]</span> <span class="alina-news-icon" aria-hidden="true">🏅</span> Awarded an <strong>FRQS Doctoral Training Award</strong>.</li>
 </ul>
 </section>
 
