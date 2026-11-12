@@ -81,14 +81,18 @@ Before starting my Ph.D. in 2023, I completed a B.Sc. at McGill University, majo
 <section class="alina-section" id="news" aria-labelledby="news-heading">
 <h2 id="news-heading">News</h2>
 <ul class="alina-news" tabindex="0" aria-label="Recent news; scroll for more announcements">
-<li><span class="alina-date">[2026]</span> <span class="alina-news-icon" aria-hidden="true">🏆</span> Received the <strong>Roger Williams Award</strong> from the International Genetic Epidemiology Society (IGES).</li>
-<li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my ongoing work on <strong>mobile element variation in the UK Biobank</strong> as an oral presentation at IGES and a poster at ASHG.</li>
+<li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🏆</span> Received the <strong>Roger Williams Award</strong> from the International Genetic Epidemiology Society (IGES).</li>
+<li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my work on <strong>mobile element variation in the UK Biobank</strong> as an oral presentation at IGES (Estérel) and as a poster at ASHG.</li>
 <li><span class="alina-date">[09/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Gave an oral presentation on mobile element variation at the <strong>Montreal Genomics Meeting</strong>.</li>
-<li><span class="alina-date">[06/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my work on <strong>alpha-1 antitrypsin and sepsis</strong> at the European Society of Human Genetics Annual Meeting in Gothenburg.</li>
+<li><span class="alina-date">[06/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my work on <strong>plasma alpha-1 antitrypsin and sepsis</strong> at the European Society of Human Genetics (ESHG) Annual Meeting in Gothenburg, Sweden.</li>
+<li><span class="alina-date">[10/2025]</span> <span class="alina-news-icon" aria-hidden="true">📌</span> Presented a poster on <strong>biobank-scale genetics guiding dermatophytosis treatment</strong> in CARD9 deficiency at the American Society of Human Genetics (ASHG) Annual Meeting in Boston, MA.</li>
 <li><span class="alina-date">[09/2025]</span> <span class="alina-news-icon" aria-hidden="true">🏅</span> Awarded the <strong>MUHC Metabolic Centre of Excellence Fellowship</strong>.</li>
 <li><span class="alina-date">[05/2025]</span> <span class="alina-news-icon" aria-hidden="true">🏅</span> Awarded an <strong>FRQS Doctoral Training Award</strong>.</li>
+<li><span class="alina-date">[11/2024]</span> <span class="alina-news-icon" aria-hidden="true">📌</span> Presented a poster on <strong>network partners for drug target identification</strong> at the American Society of Human Genetics (ASHG) Annual Meeting in Denver, CO.</li>
+<li><span class="alina-date">[06/2023]</span> <span class="alina-news-icon" aria-hidden="true">🎓</span> Graduated with a <strong>B.Sc. with Distinction</strong> (Pharmacology Major, Computer Science Minor; Dean's Honour List) from McGill University.</li>
 </ul>
 </section>
+
 
 <section class="alina-section" id="education-experience" aria-labelledby="education-heading">
 <h2 id="education-heading">Education &amp; Experience</h2>
