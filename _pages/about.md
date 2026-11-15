@@ -81,7 +81,7 @@ Before starting my Ph.D. in 2023, I completed a B.Sc. at McGill University, majo
 <section class="alina-section" id="news" aria-labelledby="news-heading">
 <h2 id="news-heading">News</h2>
 <ul class="alina-news" tabindex="0" aria-label="Recent news; scroll for more announcements">
-<li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🏆</span> Received the <strong>Roger Williams Award</strong> from the International Genetic Epidemiology Society (IGES).</li>
+<li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🏆</span> Received the <strong>Roger Williams Memorial Award</strong> from the International Genetic Epidemiology Society (IGES).</li>
 <li><span class="alina-date">[10/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my work on <strong>mobile element variation in the UK Biobank</strong> as an oral presentation at IGES (Estérel) and as a poster at ASHG.</li>
 <li><span class="alina-date">[09/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Gave an oral presentation on mobile element variation at the <strong>Montreal Genomics Meeting</strong>.</li>
 <li><span class="alina-date">[06/2026]</span> <span class="alina-news-icon" aria-hidden="true">🎤</span> Presented my work on <strong>plasma alpha-1 antitrypsin and sepsis</strong> at the European Society of Human Genetics (ESHG) Annual Meeting in Gothenburg, Sweden.</li>
